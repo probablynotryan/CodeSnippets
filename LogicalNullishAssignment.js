@@ -2,7 +2,7 @@ let x = 1234, y, z = null;
 
 // ' ??=' assigns a value to a variable if the variable is null or undefined:
 
-x ??= -1;
+x ??= -1; // otherwise written as x = x ?? -1
 y ??= -1;
 z ??= -1;
 
